@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 id="title">TreinaWeb - Curso javascript DOM</h1>
+
+    <p class="text">p 01</p>
+    <p class="text">p 02</p>
+    <button onclick="accesElementO()">Clique Aqui</button>
+    <br>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae iste labore fuga quibusdam 
+        nemo quas, consequuntur eveniet itaque a adipisci numquam ratione debitis distinctio placeat asperiores harum voluptates magnam porro?
+
+
+        <strong>Lorem ipsum dolor sit amet consectues</strong>
+    </p>
+
+
+
+    <script>
+
+        //acessar elemento pelo id
+        console.log(document.getElementById('title'));
+
+        //acessar elemento pela classe
+        console.log(document.getElementsByClassName('text'));
+
+        //Acessando elemento pela tag html
+        console.log(document.getElementsByTagName('p'));
+
+        //Acessando um unico elemento
+        console.log(document.querySelector('h1'));
+
+          //Acessando uma lista de elementos 
+        console.log(document.querySelectorAll('h1'));
+
+
+
+        function accesElement(){
+
+
+        }
+
+
+
+    </script>
+</body>
+</html>
